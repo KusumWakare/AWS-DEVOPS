@@ -1,0 +1,74 @@
+@font-face {
+    font-family: arbutus-regular;
+    src: url(../fonts/Arbutus/Arbutus-Regular.ttf);
+}
+
+@font-face {
+    font-family: croissant-one;
+    src: url(../fonts/Croissant_One/CroissantOne-Regular.ttf);
+}
+
+body{
+    background-color: black;
+}
+.align-items{
+    align-items: center;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.nav-items{
+    text-decoration: none; 
+    padding: 20px 45px 20px 20px;
+    font-size: large;
+    color: black;
+    font-family: arbutus-regular;
+}
+.background-color{
+    background-color: hsl(17, 87%, 55%);
+}
+
+.brand-css{
+    margin: 0;
+    padding: 10px 40px;
+    font-size: xx-large;
+    font-family: croissant-one;
+}
+
+.searchbar-css{
+    padding: 10px 20px;
+}
+
+input{
+    background-color: #0e0d0d;
+    border-color: #0e0d0d;
+}
+
+.nav-items:hover{
+    color: white;
+    background-color: black;
+}
+
+/* div .fa-sharp{
+    color: black;
+}  */
+
+.background-image{
+    background-image: url(../images/notebook-natural-laptop-macbook.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 400px; 
+    
+}
+
+div h1{
+    color: aliceblue;
+    text-align:center;
+}
